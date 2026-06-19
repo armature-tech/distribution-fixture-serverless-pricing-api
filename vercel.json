@@ -1,0 +1,12 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "fluid": true,
+  "functions": {
+    "api/quote.js": {
+      "maxDuration": 30
+    },
+    "api/stream.js": {
+      "maxDuration": 60
+    }
+  }
+}

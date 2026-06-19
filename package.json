@@ -1,0 +1,13 @@
+{
+  "name": "distribution-fixture-vercel-functions-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Small production API fixture for distribution testing against Vercel Functions.",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}
